@@ -148,6 +148,8 @@ footer {
 .join {
   color: white;
   background-color: #023020;
+  border-style: double;
+  
 }
 
 .join:hover {
