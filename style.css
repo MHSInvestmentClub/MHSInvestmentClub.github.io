@@ -1,0 +1,156 @@
+/* Navbar */
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.nav-icons {
+  float: left;
+  display: inline-block;
+  font-family: serif;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: bolder;
+}
+
+ul {
+  text-align: left;
+}
+
+.nav-icons:hover {
+  background-color: #111;
+  color: white;
+}
+.active {
+  background-color: #0A6EBD;
+}
+.nav-link {
+  color: white;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+#title {
+  color: #e69138;
+  font-weight: bolder;
+  text-align: center;
+} 
+
+h1 span{
+  background-color: rgba(10, 10, 86, 0.55);
+  border-color: 1A1A1D;
+  border-style: solid;
+}
+
+#tagline {
+  background-color: #e69138;
+  border: none;
+  color: black;
+  font-weight: bold;
+  padding: 15px 32px;
+  /* text-align: center;
+  text-decoration: none; */
+  display: inline-block;
+  font-size: 24px;
+}
+
+.subsection{
+  padding: 14px 16px;
+  color: white;
+  font-weight: bolder;
+  border: #e69138;
+  border-style: ridge;
+}
+
+.subsectiontitle{
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.subsectiontxt{
+  font-size: 24px;
+}
+
+p span{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.stocks {
+  background-image: url("https://media.istockphoto.com/id/1322201350/photo/digitally-enhanced-shot-of-a-graph-showing-the-ups-and-downs-shares-on-the-stock-market.jpg?b=1&s=170667a&w=0&k=20&c=IvUFBAPGMXUQ8oPREy1JfI_cZEKjoqORVl5NoUjo-4o=");
+  background-blend-mode:darken
+}
+
+.cryptocurrency {
+  background-image: url("https://helios-i.mashable.com/imagery/articles/04ldy4kWWpLv9ccOUPseqIo/hero-image.fill.size_624x351.v1647386540.jpg");
+  background-blend-mode:darken
+}
+
+.etfs {
+  background-image: url("https://media.istockphoto.com/id/1161384796/vector/search-etf-investments.jpg?s=612x612&w=0&k=20&c=8vdunt0UO0sjbP_IEnDNeANnHqFavxSeFCrKVkt6coM=");
+  background-blend-mode:darken
+}
+
+.leverage {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhetTEOlU0bb1Dn-JSOKtXviNQJC9nE7OmEQ&usqp=CAU");
+  background-blend-mode:darken
+}
+
+.aboutus {
+  background-color: #023020;
+  background-blend-mode:darken
+}
+
+body {
+  background-color: #9ab1cb;
+}
+
+.abouticus{
+  color: white;
+}
+
+/* .abouticus span{
+  background-color: rgba(0, 0, 0, 0.6);
+} */
+
+.btn {
+  background-color: silver; 
+  border-color: silver;
+}
+
+.whiteonblack {
+  color: black;
+}
+
+/* .resize {
+  width: 300px;
+  height: auto;
+} */
+
+header {
+    background-image: url("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YnVpbGRpbmd8ZW58MHx8MHx8&w=1000&q=80");
+  background-blend-mode:darken
+}
+
+footer {
+  background: #b2d3c2
+}
+
+.join {
+  color: white;
+  background-color: #023020;
+}
+
+.join:hover {
+  color: white;
+  background-color: black;
+}
