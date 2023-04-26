@@ -41,7 +41,8 @@ html {
 
 
 #title {
-  color: #e69138;
+/*   color: #e69138; */
+  color: black;
   font-weight: bolder;
   text-align: center;
 } 
